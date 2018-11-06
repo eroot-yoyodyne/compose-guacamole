@@ -8,14 +8,16 @@ This is a sample configuration for `docker-compose` that puts together all the c
 
 This is currently version-pinned to `0.9.12-incubating`, since the database `Dockerfile` requires the client repository to be properly tagged to extract the database schema, and at the time of this writing there wasn't a newer tag.
 
+It is a fork that icludes updates from a pull request on the origional. I am modifying it as needed to tun in Azure.
+
 ## Usage
 
 Assuming you already have a working Docker installation and `docker-compose`,
 setup is really easy.
 
 ```
-git clone git@github.com:BrowncoatShadow/compose-guacamole.git
-cd docker-compose-guacamole
+git clone git@github.com:eroot-yoyodyne/compose-guacamole.git
+cd compose-guacamole
 docker-compose up -d
 ```
 
